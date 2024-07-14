@@ -1,0 +1,7 @@
+controllers:
+    resource:
+        path: ../src/Controller/  # Spécifie le chemin vers le répertoire contenant les contrôleurs
+        namespace: App\Controller  # Indique le namespace des contrôleurs, utilisé pour les retrouver dans le bon répertoire
+    type: attribute  # Indique que les routes sont définies à l'aide des attributs
+
+# Je pense que le type devrait être "annotation" afin d'écrire des informations, mais je n'arrive pas à le faire fonctionner car le fichier doctrine.yaml pose toujours un problème.
